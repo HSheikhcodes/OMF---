@@ -222,12 +222,28 @@ margin-bottom: 17px;
 }
 
 @media only screen and (min-width: 992px) {
-  .header, .image  {
+  .header  {
     padding: 16px 64px;
     flex-direction: column;
   }
-  
+  .menu-container { 
+    padding: 16px 64px;
+    flex-direction: column;
+  }
+  .starters { 
+    padding: 16px 64px;
+    flex-direction: column;
+  }
+  .main { 
+    padding: 16px 64px;
+    flex-direction: column;
+  }
+  .dessert {
+    padding: 16px 64px;
+    flex-direction: column;
+  }
 }
+
 @media only screen and (min-width: 1200px) {
   .header  {
     padding: 16px 64px;
