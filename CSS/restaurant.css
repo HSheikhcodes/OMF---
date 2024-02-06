@@ -224,23 +224,23 @@ margin-bottom: 17px;
 @media only screen and (min-width: 992px) {
   .header  {
     padding: 16px 64px;
-    flex-direction: column;
+    flex-direction: row;
   }
   .menu-container { 
     padding: 16px 64px;
-    flex-direction: column;
+    flex-direction: row;
   }
   .starters { 
     padding: 16px 64px;
-    flex-direction: column;
+    flex-direction: row;
   }
   .main { 
     padding: 16px 64px;
-    flex-direction: column;
+    flex-direction: row;
   }
   .dessert {
     padding: 16px 64px;
-    flex-direction: column;
+    flex-direction: row;
   }
 }
 
@@ -249,22 +249,6 @@ margin-bottom: 17px;
   .starters, .main, 
   .dessert, .footer {
     padding: 16px 64px;
-    flex-direction: column;
-  }
-  .menu-container { 
-    padding: 16px 64px;
-    flex-direction: column;
-  }
-  .starters { 
-    padding: 16px 64px;
-    flex-direction: column;
-  }
-  .main { 
-    padding: 16px 64px;
-    flex-direction: column;
-  }
-  .dessert {
-    padding: 16px 64px;
-    flex-direction: column;
+    flex-direction: row;
   }
 }
