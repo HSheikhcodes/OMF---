@@ -221,4 +221,10 @@ margin-bottom: 17px;
   opacity: 0;
 }
 
-
+@media only screen and (min-width: 992px) {
+  .header, .image  {
+    padding: 16px 64px;
+    flex-direction: column;
+  }
+  
+}
