@@ -25,7 +25,6 @@ $background-color_4: #99E2D0;
 		opacity: 1;
 	}
 }
-/****************************Button****/
 .logo {
 	display: flex;
 	align-items: center;
@@ -82,6 +81,9 @@ p {
 	height: 21px;
 	top: -70px;
 	left: 325px;
+	cursor: pointer;
+	transition: 0.8s ease-in;
+	opacity: 1;
 }
 .under-line {
 	border-bottom: 4px solid #99e2d0;
@@ -91,20 +93,6 @@ p {
 	margin-bottom: 17px;
 }
 .card {
-	&:hover {
-		.tick {
-			animation: fadeIn 1s ease-in-out;
-			opacity: 1;
-			animation: fadeIn 1s ease-in-out;
-			opacity: 1;
-		}
-		.icon {
-			animation: fadeIn 1s ease-in-out;
-			opacity: 1;
-			animation: fadeIn 1s ease-in-out;
-			opacity: 1;
-		}
-	}
 	background-color: $background-color_3;
 	width: 333px;
 	height: 72px;
@@ -118,27 +106,19 @@ p {
 	position: relative;
 	margin-bottom: 10px;
 	margin-top: 10px;
-}
-.price {
 	&:hover {
-		+ {
-			.tick {
-				animation: fadeIn 1s ease-in-out;
-				opacity: 1;
-			}
-			.icon {
-				animation: fadeIn 1s ease-in-out;
-				opacity: 1;
-			}
+		.price {
+			transform: translateX(-23%);
+		}
+		.tick {
+			animation: fadeIn 1s ease-in-out;
+			opacity: 1;
+		}
+		.icon {
+			animation: fadeIn 1s ease-in-out;
+			opacity: 1;
 		}
 	}
-	display: flex;
-	font-weight: 400;
-	padding-bottom: 5px;
-	justify-content: flex-end;
-	align-items: flex-end;
-	margin-top: -40px;
-	width: 95%;
 }
 .card-content {
 	width: 100%;
@@ -155,6 +135,28 @@ p {
 	text-overflow: ellipsis;
 	text-decoration: nowrap;
 	white-space: nowrap;
+}
+.price {
+	display: flex;
+	font-weight: 400;
+	padding-bottom: 5px;
+	justify-content: flex-end;
+	align-items: flex-end;
+	margin-top: -40px;
+	width: 95%;
+	transition: transform 0.3s ease-in-out;
+	&:hover {
+		+ {
+			.tick {
+				animation: fadeIn 1s ease-in-out;
+				opacity: 1;
+			}
+			.icon {
+				animation: fadeIn 1s ease-in-out;
+				opacity: 1;
+			}
+		}
+	}
 }
 .tick {
 	display: flex;
@@ -212,5 +214,53 @@ p {
 		position: absolute;
 		background: linear-gradient(180deg, #ff88de 0%, #a16be0 100%);
 		opacity: 0;
+	}
+}
+@media only screen and (min-width: 992px) {
+	.header {
+		padding: 16px 64px;
+		flex-direction: row;
+	}
+	.menu-container {
+		padding: 16px 64px;
+		flex-direction: row;
+	}
+	.starters {
+		padding: 16px 64px;
+		flex-direction: row;
+	}
+	.main {
+		padding: 16px 64px;
+		flex-direction: row;
+	}
+	.dessert {
+		padding: 16px 64px;
+		flex-direction: row;
+	}
+}
+@media only screen and (min-width: 1200px) {
+	.header {
+		padding: 16px 64px;
+		flex-direction: row;
+	}
+	.menu-container {
+		padding: 16px 64px;
+		flex-direction: row;
+	}
+	.starters {
+		padding: 16px 64px;
+		flex-direction: row;
+	}
+	.main {
+		padding: 16px 64px;
+		flex-direction: row;
+	}
+	.dessert {
+		padding: 16px 64px;
+		flex-direction: row;
+	}
+	.footer {
+		padding: 16px 64px;
+		flex-direction: row;
 	}
 }
