@@ -173,6 +173,7 @@ address {
   .restaurants-section {
     display: flex;
     flex-direction: column;
+    padding:  5px;
     background: #f6f6f6;
   }
   
@@ -184,7 +185,6 @@ address {
     align-items: center;
     justify-content: center;
     border-radius: 20px;
-    width: 50%;
   }
   
   .restaurants-cards {
@@ -333,16 +333,19 @@ h1 {
   .restaurant-card {
     display: flex;
     flex-direction: row;
-    width: 50%; 
     display: flex;
   }
 
   
-  .restaurant-section {
+  .restaurant-cards-container {
     padding: 16px 64px;
     flex-direction: row;
     display: flex;
+    flex-wrap: wrap;
+    width: 50%;
+    gap: 25px;
   }
+
   .footer, 
   .footer-link {
     padding: 16px 12px;
@@ -378,13 +381,18 @@ h1 {
 .restaurant-card {
   display: flex;
   flex-direction: row;
-  width: 50%; 
+  width: 100%; 
 }
 
-.restaurant-section {
-  padding: 64px 128px;
+.restaurant-cards-container {
+  padding: 16px 64px;
   flex-direction: row;
-} 
+  display: flex;
+  flex-wrap: wrap;
+  width: 50%;
+  gap: 25px;
+}
+
 
 .footer, .footer-link { 
   padding: 64px 128px;
