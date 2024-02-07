@@ -96,6 +96,13 @@ address {
 
 /****************************Guide section****/
 
+.row {
+  max-width: 1053px;
+  margin: auto;
+  flex-wrap: wrap; 
+  width: 50%;
+}
+
 .restaurant-guides {
     display: flex; 
     flex-direction: column;
@@ -179,7 +186,7 @@ address {
     padding: 8px;
     margin-left: -8px;
     color: black;
-    
+    width: 50%;
     align-items: center;
     justify-content: center;
   }
@@ -191,10 +198,18 @@ address {
 
     border-radius: 20px;
     background-color: white; /* Adjust later */
-    width: 90%;
+    width: 100%;
     position: relative;
     text-decoration: none;
   }
+
+  .restaurant-card-container { 
+    display: flex;
+    flex-wrap: wrap;
+    width: 50%;
+    
+  }
+    
   
   .card-img {
     width: 100%;
@@ -333,7 +348,6 @@ h1 {
     height: 251px; 
   }
 }
-  
   
   .restaurant-section {
     padding: 16px 64px;
