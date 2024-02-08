@@ -330,7 +330,7 @@ h1 {
     flex-direction: row;
 
   }
-  .restaurant-card {
+  restaurant-card {
     display: flex;
     flex-direction: row;
     display: flex;
@@ -378,7 +378,7 @@ h1 {
 
 }
 
-.restaurant-card {
+restaurant-card {
   display: flex;
   flex-direction: row;
   width: 100%; 
