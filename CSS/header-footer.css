@@ -37,6 +37,7 @@ a {
   height: 186px;
   color: white;
   /* Additional scss variables for colour - ASAP! ----*/
+  justify-content: space-evenly;
 }
 
 footer>h3 {
@@ -71,8 +72,9 @@ footer>h3 {
 @media only screen and (min-width: 992px) { 
   
   .footer, .footer-link { 
-    padding: 64px 128px;
+    
     flex-direction:row;
+    justify-content: space-evenly;
   }
   }
   
@@ -80,8 +82,9 @@ footer>h3 {
    .footer, 
    .footer-link
     { 
-    padding: 64px 128px;
+  
     flex-direction:row;
+    justify-content: space-evenly;
      }
     }
   

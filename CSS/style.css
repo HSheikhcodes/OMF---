@@ -355,9 +355,7 @@ h1 {
     padding: 30px, 25px, 30px, 25px;
     gap: 16px;
   }
-.footer-title { 
 
-}
 }
 
 
@@ -395,7 +393,6 @@ restaurant-card {
 
 
 .footer, .footer-link { 
-  padding: 64px 128px;
   flex-direction:row;
 }
 }
