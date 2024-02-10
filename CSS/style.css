@@ -170,10 +170,9 @@ address {
   }
 
   /*****************************restaurant****/
-  .restaurants-section {
+  .restaurant-cards-container, .restaurant-section {
     display: flex;
     flex-direction: column;
-    padding:  5px;
     background: #f6f6f6;
   }
   
@@ -367,12 +366,18 @@ restaurant-card {
 }
 
 .restaurant-cards-container {
-  padding: 16px 64px;
   flex-direction: row;
   display: flex;
   flex-wrap: wrap;
   width: 50%;
   gap: 25px;
+}
+.restaurant-card { 
+  height: 231px;
+  left: -4px;
+  top: -57px;
+  display: flex;
+  flex-wrap: wrap;
 }
 }
 @media only screen and (min-width: 992px) { 
