@@ -330,11 +330,6 @@ h1 {
     flex-direction: row;
 
   }
-  restaurant-card {
-    display: flex;
-    flex-direction: row;
-    display: flex;
-  }
 
   
   .restaurant-cards-container {
@@ -344,16 +339,6 @@ h1 {
     flex-wrap: wrap;
     width: 50%;
     gap: 25px;
-  }
-
-  .footer, 
-  .footer-link {
-    padding: 16px 12px;
-    flex-direction: row;
-    Width:1440px;
-    height:114px;
-    padding: 30px, 25px, 30px, 25px;
-    gap: 16px;
   }
 }
 
@@ -389,12 +374,34 @@ restaurant-card {
   width: 50%;
   gap: 25px;
 }
-
-
-.footer, .footer-link { 
-  flex-direction:row;
 }
-}
+@media only screen and (min-width: 992px) { 
+  
+  .footer, .footer-title, .footer-link { 
+    
+    flex-direction:row;
+    justify-content: space-evenly;
+  }
+  }
+  
+  @media only screen and (min-width: 1200px) {
+   .footer { 
+    flex-direction:row;
+    justify-content: space-evenly;
+    display: flex;
+    margin-top: 110px;
+    gap: 28px;
+    height: 114px;
+     }
+     .footer, .footer-link { 
+    flex-direction:row;
+    justify-content: space-evenly;
+    display: flex;
+    gap: 28px;
+    height: 114px;
+    align-items: center;
+     }
+    }
 
    /*************************************Keyframes**********************************************/
 
