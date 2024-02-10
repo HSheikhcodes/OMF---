@@ -325,13 +325,16 @@ h1 {
     height: 50px;
   
   }
-  
+  .restaurant-section > h1 { 
+    margin-left: 40px;
+  }
   .restaurant-cards-container {
     flex-direction: row;
     display: flex;
     flex-wrap: wrap;
-    width: 50%;
+    width: 65%;
     gap: 25px;
+    margin-left: 40px;
   }
   .restaurant-card { 
     height: 231px;
@@ -339,6 +342,7 @@ h1 {
     top: -57px;
     display: flex;
     flex-wrap: wrap;
+    width: 100%;
   }
 }
 
@@ -360,10 +364,8 @@ h1 {
 
 }
 
-restaurant-card {
-  display: flex;
-  flex-direction: row;
-  width: 100%; 
+.restaurant-section > h1 { 
+  margin-left: 40px;
 }
 
 .restaurant-cards-container {
@@ -372,6 +374,7 @@ restaurant-card {
   flex-wrap: wrap;
   width: 50%;
   gap: 25px;
+  margin-left: 28px;
 }
 .restaurant-card { 
   height: 231px;
@@ -381,45 +384,8 @@ restaurant-card {
   flex-wrap: wrap;
 }
 }
-@media only screen and (min-width: 992px) { 
+
   
-  .footer { 
-    flex-direction:row;
-    justify-content: space-evenly;
-    display: flex;
-    margin-top: 110px;
-    gap: 28px;
-    height: 114px;
-     }
-     .footer, .footer-link { 
-    flex-direction:row;
-    justify-content: space-evenly;
-    display: flex;
-    gap: 28px;
-    height: 114px;
-    align-items: center;
-     }
-    
-  }
-  
-  @media only screen and (min-width: 1200px) {
-   .footer { 
-    flex-direction:row;
-    justify-content: space-evenly;
-    display: flex;
-    margin-top: 110px;
-    gap: 28px;
-    height: 114px;
-     }
-     .footer, .footer-link { 
-    flex-direction:row;
-    justify-content: space-evenly;
-    display: flex;
-    gap: 28px;
-    height: 114px;
-    align-items: center;
-     }
-    }
 
    /*************************************Keyframes**********************************************/
 
