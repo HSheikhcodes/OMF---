@@ -232,6 +232,7 @@ margin-bottom: 17px;
   .header,  .menu-container {
     padding: 16px 64px;
     flex-direction: row;
+    margin: -10px;
   }
   .dish-container { 
     display: flex;
@@ -254,7 +255,7 @@ margin-bottom: 17px;
 }
 
 @media only screen and (min-width: 1200px) {
-  .header,  .menu-container {
+  .header {
     padding: 16px 64px;
     flex-direction: row;
   }
