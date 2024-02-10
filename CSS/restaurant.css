@@ -15,7 +15,6 @@
 
 .image { 
   position: relative;
-  width: 90%;
   height: 275px;
   margin-bottom: -33px;
   align-items: center;
@@ -163,7 +162,7 @@ margin-bottom: 17px;
   position: absolute;
 }
 
-.main > p { 
+.main > p, .dessert > p { 
   margin-top: 40px;
   gap: 12px;
   display: flex;
