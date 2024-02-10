@@ -389,20 +389,21 @@ h1 {
 @media only screen and (min-width: 992px) { 
   
   .footer, .footer-title, .footer-link { 
-    
-    flex-direction:row;
-    justify-content: space-evenly;
+      flex-direction:row;
+      justify-content: space-evenly;
+      display: flex;
+      margin-top: 140px;
+      gap: 28px;
   }
   }
   
   @media only screen and (min-width: 1200px) {
-   .footer, .footer-link { 
+   .footer, .footer-link, .footer-title { 
     flex-direction:row;
     justify-content: space-evenly;
     display: flex;
-    margin-top: 110px;
+    margin-top: 140px;
     gap: 28px;
-  
      }
    
     }
