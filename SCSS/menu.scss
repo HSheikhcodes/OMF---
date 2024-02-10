@@ -1,5 +1,5 @@
-/*Default should be Mobile */
-/* Adjust Media query desktops later ---- MUST BE DONE ACCURATELY! */
+@import 'variables'; 
+
 body {
 	font-family: $font-family_1;
 	text-decoration: none;
@@ -8,13 +8,7 @@ a {
 	text-decoration: none;
 	color: $color_1;
 }
-$color_1: #FFF;
-$font-family_1: 'Shrikhand', sans-serif;
-$font-family_2: "Roboto", sans-serif;
-$background-color_1: #F6F6F6;
-$background-color_2: #f6f6f6;
-$background-color_3: #FFFFFF;
-$background-color_4: #99E2D0;
+
 
 /*ADD heart icon fade in colour - same as home page*/
 @keyframes fadeIn {
