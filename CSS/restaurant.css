@@ -229,22 +229,27 @@ margin-bottom: 17px;
 }
 
 @media only screen and (min-width: 992px) {
-  .header  {
+  .header,  .menu-container {
+    padding: 16px 64px;
     flex-direction: row;
   }
-  .menu-container { 
+  .dish-container { 
+    display: flex;
     flex-direction: row;
+    gap: 10px;
   }
-  .starters { 
-    flex-direction: row;
+  .main > p, .dessert > p, .starters > p  { 
+    margin-top: 0px;
   }
-  .main { 
-  
-    flex-direction: row;
+  .header {
+    padding: 0%;
   }
-  .dessert {
-   
-    flex-direction: row;
+  .Button { 
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    left: 27em;
+    margin-top: 35px;
   }
 }
 

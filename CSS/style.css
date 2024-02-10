@@ -311,33 +311,34 @@ h1 {
 
 @media only screen and (min-width: 992px) { 
   .logo-header  {
-    padding: 16px 64px;
+    padding: 4px 10px;
+  }
   
-}
-
-  .guide { 
-    padding: 16px 64px;
+  .guide, .restaurant-guides { 
     flex-direction: row;
+   gap: 20px;
   }
-
-  .guide > h1 { 
-    margin-inline-start: -60px;
-  }
-.restaurant-guides, 
-.step {
-    padding: 16px 64px;
+  
+  .step {
     flex-direction: row;
-
+    width: 300px;
+    height: 50px;
+  
   }
-
   
   .restaurant-cards-container {
-    padding: 16px 64px;
     flex-direction: row;
     display: flex;
     flex-wrap: wrap;
     width: 50%;
     gap: 25px;
+  }
+  .restaurant-card { 
+    height: 231px;
+    left: -4px;
+    top: -57px;
+    display: flex;
+    flex-wrap: wrap;
   }
 }
 
