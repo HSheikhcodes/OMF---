@@ -199,6 +199,17 @@ margin-bottom: 17px;
   background: linear-gradient(180deg, #ff88de 0%, #a16be0 100%);
   opacity: 0;
 }
+.dish-item { 
+  font-size: 18px;
+  font-weight: 405;
+}
+
+.dish-info { 
+  font-size: 15px;
+  font-weight: 300;
+}
+
+
 
 @keyframes fadeIn {
   0% {
