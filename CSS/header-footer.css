@@ -80,13 +80,14 @@ footer>h3 {
   }
   
   @media only screen and (min-width: 1200px) {
-   .footer, .footer-link { 
+   .footer, .footer-link, .footer-title { 
     flex-direction:row;
     justify-content: space-evenly;
     display: flex;
     margin-top: 110px;
     gap: 28px;
     height: 140px;
+    margin-bottom: 10px;
      }
     }
   
