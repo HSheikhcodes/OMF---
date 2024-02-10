@@ -260,5 +260,7 @@ margin-bottom: 17px;
     justify-content: center;
     align-items: center;
     position: absolute;
+    left: 27em;
+    margin: auto;
   }
 }
