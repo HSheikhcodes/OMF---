@@ -1,0 +1,106 @@
+$color_1: black;
+$color_2: white;
+$font-family_1: "Roboto", sans-serif;
+$font-family_2: "Shrikhand", serif;
+$background-color_1: #353535;
+
+/****************************Oh-My-Food Logo****/
+/* ----Footer  ----*/
+* {
+	body {
+		font-family: $font-family_1;
+		text-decoration: none;
+		margin: 0%;
+		padding: 0;
+	}
+}
+a {
+	text-decoration: none;
+	color: $color_1;
+}
+.logo-header {
+	display: flex;
+	position: relative;
+	z-index: 1;
+	box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.15);
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	flex-wrap: nowrap;
+	padding: 0 30px;
+}
+.footer {
+	display: flex;
+	flex-direction: column;
+	background-color: $background-color_1;
+	font-weight: 300;
+	font-size: 16px;
+	line-height: 18.75px;
+	height: 186px;
+	color: $color_2;
+	justify-content: space-evenly;
+}
+footer {
+	>h3 {
+		font-family: $font-family_2;
+		font-weight: 700;
+		font-style: italic;
+	}
+}
+.footer-title {
+	flex-direction: column;
+	display: flex;
+	transform: skew(-1deg);
+	font-weight: 500;
+	color: $color_2;
+	font-size: 16px;
+	padding-top: 12px;
+	padding-left: 13px;
+	line-height: 18.75px;
+}
+.footer-link {
+	a {
+		display: flex;
+		color: $color_2;
+		gap: 16px;
+		margin-bottom: 10px;
+	}
+}
+@media only screen and (min-width: 992px) {
+	.footer {
+		flex-direction: row;
+		justify-content: space-evenly;
+	}
+	.footer-title {
+		flex-direction: row;
+		justify-content: space-evenly;
+	}
+	.footer-link {
+		flex-direction: row;
+		justify-content: space-evenly;
+	}
+}
+@media only screen and (min-width: 1200px) {
+	.footer {
+		flex-direction: row;
+		justify-content: space-evenly;
+		display: flex;
+		margin-top: 110px;
+		gap: 28px;
+		height: 114px;
+		flex-direction: row;
+		justify-content: space-evenly;
+		display: flex;
+		gap: 28px;
+		height: 114px;
+		align-items: centre;
+	}
+	.footer-link {
+		flex-direction: row;
+		justify-content: space-evenly;
+		display: flex;
+		gap: 28px;
+		height: 114px;
+		align-items: centre;
+	}
+}
