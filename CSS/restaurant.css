@@ -219,23 +219,20 @@ margin-bottom: 17px;
 
 @media only screen and (min-width: 992px) {
   .header  {
-    padding: 16px 64px;
     flex-direction: row;
   }
   .menu-container { 
-    padding: 16px 64px;
     flex-direction: row;
   }
   .starters { 
-    padding: 16px 64px;
     flex-direction: row;
   }
   .main { 
-    padding: 16px 64px;
+  
     flex-direction: row;
   }
   .dessert {
-    padding: 16px 64px;
+   
     flex-direction: row;
   }
 }
@@ -261,6 +258,6 @@ margin-bottom: 17px;
     align-items: center;
     position: absolute;
     left: 27em;
-    margin: auto;
+    margin-top: 30px;
   }
 }
