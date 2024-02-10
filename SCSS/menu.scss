@@ -39,10 +39,10 @@ $background-color_4: #99E2D0;
 }
 .image {
 	position: relative;
-	width: 90%;
 	height: 275px;
 	margin-bottom: -33px;
 	align-items: center;
+	width: 100%;
 }
 .menu-container {
 	background-color: $background-color_1;
@@ -135,6 +135,8 @@ p {
 	text-overflow: ellipsis;
 	text-decoration: nowrap;
 	white-space: nowrap;
+	font-size: 15px;
+	font-weight: 300;
 }
 .price {
 	display: flex;
@@ -171,7 +173,7 @@ p {
 	position: absolute;
 	top: 0px;
 	right: 0px;
-	padding: 15px;
+	padding: 6px;
 }
 .icon {
 	display: flex;
@@ -185,6 +187,13 @@ p {
 	position: absolute;
 }
 .main {
+	>p {
+		margin-top: 40px;
+		gap: 12px;
+		display: flex;
+	}
+}
+.dessert {
 	>p {
 		margin-top: 40px;
 		gap: 12px;
@@ -216,25 +225,24 @@ p {
 		opacity: 0;
 	}
 }
+.dish-item {
+	font-size: 18px;
+	font-weight: 405;
+}
 @media only screen and (min-width: 992px) {
 	.header {
-		padding: 16px 64px;
 		flex-direction: row;
 	}
 	.menu-container {
-		padding: 16px 64px;
 		flex-direction: row;
 	}
 	.starters {
-		padding: 16px 64px;
 		flex-direction: row;
 	}
 	.main {
-		padding: 16px 64px;
 		flex-direction: row;
 	}
 	.dessert {
-		padding: 16px 64px;
 		flex-direction: row;
 	}
 }
@@ -242,25 +250,37 @@ p {
 	.header {
 		padding: 16px 64px;
 		flex-direction: row;
+		padding: 0%;
 	}
 	.menu-container {
 		padding: 16px 64px;
 		flex-direction: row;
 	}
-	.starters {
-		padding: 16px 64px;
+	.dish-container {
+		display: flex;
 		flex-direction: row;
+		gap: 10px;
 	}
 	.main {
-		padding: 16px 64px;
-		flex-direction: row;
+		>p {
+			margin-top: 0px;
+		}
 	}
 	.dessert {
-		padding: 16px 64px;
-		flex-direction: row;
+		>p {
+			margin-top: 0px;
+		}
 	}
-	.footer {
-		padding: 16px 64px;
-		flex-direction: row;
+	.starters {
+		>p {
+			margin-top: 0px;
+		}
+	}
+	.Button {
+		justify-content: center;
+		align-items: center;
+		position: absolute;
+		left: 27em;
+		margin-top: 35px;
 	}
 }
