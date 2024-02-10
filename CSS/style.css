@@ -382,11 +382,23 @@ restaurant-card {
 }
 @media only screen and (min-width: 992px) { 
   
-  .footer, .footer-title, .footer-link { 
-    
+  .footer { 
     flex-direction:row;
     justify-content: space-evenly;
-  }
+    display: flex;
+    margin-top: 110px;
+    gap: 28px;
+    height: 114px;
+     }
+     .footer, .footer-link { 
+    flex-direction:row;
+    justify-content: space-evenly;
+    display: flex;
+    gap: 28px;
+    height: 114px;
+    align-items: center;
+     }
+    
   }
   
   @media only screen and (min-width: 1200px) {
