@@ -381,8 +381,9 @@ h1 {
 }
 
 .guide, .restaurant-guides { 
-  flex-direction: row;
+flex-direction: row;
  gap: 20px;
+ margin-left: 15px;
 }
 
 .step {
