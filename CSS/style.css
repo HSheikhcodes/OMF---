@@ -15,7 +15,8 @@
     color: black;
   }
   
-  .loader-container, .loader { 
+  .loader { 
+    display: flex;
     position: absolute;
     left: 0%;
     top: 0%;
@@ -27,7 +28,9 @@
     visibility: visible;
     opacity: 0;
     background-color: rgba(153,208,226);
-
+    justify-content: center;
+    align-items: center;
+    z-index: 10000;
   }
 
   .loader:after { 
