@@ -276,6 +276,9 @@ margin-bottom: 17px;
   margin-left: 9%;
   margin-right: 12.5%;
 }
+.card { 
+  width: 634px;
+}
 
   .main > p, .dessert > p, .starters > p  { 
     margin-top: 0px;
