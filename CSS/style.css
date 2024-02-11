@@ -403,6 +403,7 @@ h1 {
   width: 50%;
   gap: 25px;
   margin-left: 28px;
+  padding-bottom: 100px;
 }
 .restaurant-card { 
   height: 231px;
@@ -420,7 +421,6 @@ h1 {
       flex-direction:row;
       justify-content: space-evenly;
       display: flex;
-      margin-top: 140px;
       gap: 28px;
   }
   }
@@ -430,7 +430,6 @@ h1 {
     flex-direction:row;
     justify-content: space-evenly;
     display: flex;
-    margin-top: 140px;
     gap: 28px;
      }
    

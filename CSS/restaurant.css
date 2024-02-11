@@ -267,8 +267,8 @@ margin-bottom: 17px;
     gap: 10px;
     margin-left: 10%;
     width: 80%;
-   
   }
+
 .menu-container { 
   width: 75%;
   align-items: center;
@@ -279,7 +279,9 @@ margin-bottom: 17px;
 .card { 
   width: 634px;
 }
-
+.restaurant-card-container { 
+  padding-bottom: 40px;
+}
   .main > p, .dessert > p, .starters > p  { 
     margin-top: 0px;
   }
@@ -293,5 +295,6 @@ margin-bottom: 17px;
     left: 27em;
     margin-top: 35px;
     padding: 0px 40;
+    margin-left: 1px;
   }
 }
