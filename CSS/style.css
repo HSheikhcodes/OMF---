@@ -423,6 +423,8 @@ h1 {
       justify-content: space-evenly;
       display: flex;
       gap: 28px;
+      align-items: self-end;
+      height: 114px;
   }
   }
   
@@ -432,6 +434,8 @@ h1 {
     justify-content: space-evenly;
     display: flex;
     gap: 28px;
+    align-items: self-end;
+    height: 114px;
      }
    
     }
