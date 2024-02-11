@@ -15,8 +15,18 @@
     color: black;
   }
   
-  .loader { 
-    
+  .loader-container, .loader { 
+    position: absolute;
+    left: 0%;
+    top: 0%;
+    width: 100%;
+    height: 100%;
+    animation-duration: 4s;
+    animation-delay: 0.01s;
+    animation-name: fade;
+    visibility: visible;
+    opacity: 0;
+    background-color: rgba(153,208,226);
 
   }
 
