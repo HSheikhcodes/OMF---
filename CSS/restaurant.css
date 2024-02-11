@@ -81,6 +81,20 @@ Border-radius:3px;
 margin-bottom: 17px;
 }
 
+.fill-heart {
+  position: relative;
+  left: 20px;
+  transition: opacity 0.8s ease-in; 
+  opacity: 0;
+}
+
+.fa-heart:hover, .fill-heart:hover {
+  cursor: pointer;
+  transition: 0.8s ease-in;
+  opacity: 1;
+  background: linear-gradient(193.33deg, #9356dc -11.44%, #ff79da 123.93%);
+  color: transparent;
+}
 
 .card {
   background-color: #FFFFFF;

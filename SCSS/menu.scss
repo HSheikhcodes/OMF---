@@ -85,6 +85,30 @@ p {
 	border-radius: 3px;
 	margin-bottom: 17px;
 }
+
+.fill-heart {
+	position: relative;
+	left: 20px;
+	transition: opacity 0.8s ease-in;
+	opacity: 0;
+	&:hover {
+		cursor: pointer;
+		transition: 0.8s ease-in;
+		opacity: 1;
+		background: linear-gradient(193.33deg, #9356dc -11.44%, #ff79da 123.93%);
+		color: $color_8;
+	}
+}
+.fa-heart {
+	&:hover {
+		cursor: pointer;
+		transition: 0.8s ease-in;
+		opacity: 1;
+		background: linear-gradient(193.33deg, #9356dc -11.44%, #ff79da 123.93%);
+		color: $color_8;
+	}
+}
+
 .card {
 	background-color: $background-color_7;
 	width: 333px;
