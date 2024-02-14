@@ -31,7 +31,10 @@
     align-items: center;
     animation: spin 2s linear infinite;
     border-radius: 20px;
-    visibility: visible;
+    visibility: hidden;
+    animation-delay: 0s;
+    animation-iteration-count: 1;
+    animation-name: fade;
   }
   .loader__itemcontainer { 
     display: flex;
