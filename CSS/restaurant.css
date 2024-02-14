@@ -126,7 +126,7 @@ margin-bottom: 17px;
   width: auto;
 }
 
-.dish-info > p {
+.dish-info, .icon:hover, .card-content {
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
