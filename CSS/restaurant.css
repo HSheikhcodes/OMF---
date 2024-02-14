@@ -116,6 +116,7 @@ margin-bottom: 17px;
 .card-content {
   width: 100%;
   transition: width 250ms ease-in-out;
+  
 }
 
 .dish {
@@ -125,7 +126,7 @@ margin-bottom: 17px;
   width: auto;
 }
 
-.dish-info {
+.dish-info > p {
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
@@ -178,7 +179,6 @@ margin-bottom: 17px;
   border-radius: 50%;
   opacity: 0;
   position: absolute;
-
 }
 
 .main > p, .dessert > p { 
