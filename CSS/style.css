@@ -15,9 +15,13 @@
     text-decoration: none;
     color: black;
   }
-  
-  .loader { 
+
+  #loader-checkbox:checked + #loader {
     display: flex;
+}
+
+  .loader { 
+    display: none;
     position: fixed;
     left: 0%;
     top: 0%;
