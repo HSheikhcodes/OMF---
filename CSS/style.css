@@ -46,7 +46,7 @@
   background-color: #333;
   margin: 0 auto;
   border-radius: 20px ;
-  visibility: hidden;
+  visibility: visible;
 }
 
   .loader:after { 
@@ -59,7 +59,7 @@
     visibility: visible;
     animation: spin 2s linear infinite;
     border-radius: 20px;
-    visibility: visible;
+    visibility: hidden;
     opacity: 1;
   }
 
