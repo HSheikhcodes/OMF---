@@ -30,6 +30,7 @@
   z-index: 1;
   position: relative;
   padding-top: 5px;
+  
 }
 
 
@@ -116,6 +117,9 @@ margin-bottom: 17px;
 .card-content {
   width: 100%;
   transition: width 250ms ease-in-out;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
   
 }
 
@@ -133,10 +137,8 @@ margin-bottom: 17px;
   white-space: nowrap;
   }
 
-.card:hover .dish-info {
-    overflow: hidden;
-    text-overflow: ellipsis;
-    white-space: nowrap;
+.card:hover .card-content {
+    width: calc( 100% - 120px );
   }
   
 

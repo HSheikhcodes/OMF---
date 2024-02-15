@@ -326,7 +326,6 @@ address {
   .fill-heart {
     position: relative;
     left: 20px;
-    transition: opacity 0.8s ease-in; 
     opacity: 0;
   }
   
@@ -334,8 +333,11 @@ address {
     cursor: pointer;
     transition: 0.8s ease-in;
     opacity: 1;
-    background: linear-gradient(193.33deg, #9356dc -11.44%, #ff79da 123.93%);
+    background: -moz-linear-gradient(193.33deg, #9356dc -11.44%, #ff79da 123.93%);
     color: transparent;
+    background: -webkit-linear-gradient(193.33deg, #9356dc -11.44%, #ff79da 123.93%);
+   background: linear-gradient(193.33deg, #9356dc -11.44%, #ff79da 123.93%);
+   -webkit-background-clip: text;
   }
   
   /*Additional styles for consistency ---- TBC----*/
