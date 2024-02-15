@@ -125,12 +125,14 @@ margin-bottom: 17px;
   transition: width 250ms ease-in-out;
   width: auto;
 }
-
-.icon:hover + .card-content .dish-info  {
+.dish-info { 
+  font-size: 15px;
+  font-weight: 300;
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
-}
+  }
+
 
 .price {
   display: flex;
@@ -141,9 +143,7 @@ margin-bottom: 17px;
   margin-top: -40px;
   width: 95%;
   transition: transform 0.3s ease-in-out;
-  overflow: hidden;
-  text-overflow: ellipsis;
-  white-space: nowrap;
+
 }
 
 .tick {
@@ -221,13 +221,6 @@ margin-bottom: 17px;
   font-size: 18px;
   font-weight: 405;
 }
-
-.dish-info { 
-  font-size: 15px;
-  font-weight: 300;
-}
-
-
 
 @keyframes fadeIn {
   0% {
