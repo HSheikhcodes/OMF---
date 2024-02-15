@@ -39,7 +39,7 @@
     opacity: 0;
     animation-iteration-count: 1;
     animation-name: fade;
-    animation-duration: 2s;
+    animation-duration: 4s;
   }
   .loader__itemcontainer { 
     display: flex;
