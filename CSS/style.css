@@ -338,6 +338,7 @@ address {
     background: -webkit-linear-gradient(193.33deg, #9356dc -11.44%, #ff79da 123.93%);
    background: linear-gradient(193.33deg, #9356dc -11.44%, #ff79da 123.93%);
    -webkit-background-clip: text;
+   -webkit-text-fill-color: transparent;
   }
   
   /*Additional styles for consistency ---- TBC----*/
