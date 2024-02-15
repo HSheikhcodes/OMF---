@@ -16,6 +16,29 @@
     color: black;
   }
 
+  @keyframes loader {
+    40% {
+        opacity: 100%;
+    }
+
+    100% {
+        opacity: 0%;
+        pointer-events: none;
+    }
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0turn);
+  }
+  to {
+    transform: rotate(1turn);
+  }
+}
+
+
+
+
   #loader-checkbox:checked + #loader {
     display: none;
 }
@@ -62,17 +85,7 @@
     margin: auto;
   }
 
-  @keyframes loader {
-    40% {
-        opacity: 100%;
-    }
-
-    100% {
-        opacity: 0%;
-        pointer-events: none;
-    }
-}
-
+  
 
 /****************************Oh-My-Food Logo****/
 

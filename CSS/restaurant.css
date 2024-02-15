@@ -90,7 +90,7 @@ margin-bottom: 17px;
 
 .fa-heart:hover, .fill-heart:hover {
   cursor: pointer;
-  transition: 0.8s ease-in;
+  transition: 0.5s ease-in;
   opacity: 1;
   background: linear-gradient(193.33deg, #9356dc -11.44%, #ff79da 123.93%);
   color: transparent;
@@ -126,7 +126,7 @@ margin-bottom: 17px;
   width: auto;
 }
 
-.dish-info, .icon:hover, .card-content {
+.icon:hover + .card-content .dish-info  {
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
