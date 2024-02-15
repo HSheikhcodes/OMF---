@@ -37,6 +37,7 @@
     border-radius: 20px;
     visibility: hidden;
     animation-delay: 0s;
+    opacity: 0;
     animation-iteration-count: 1;
     animation-name: fade;
   }
