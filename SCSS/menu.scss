@@ -72,8 +72,8 @@ p {
 	position: relative;
 	width: 22px;
 	height: 21px;
-	top: -70px;
-	left: 325px;
+	top: -53px;
+	left: 296px;
 	cursor: pointer;
 	transition: 0.8s ease-in;
 	opacity: 1;
@@ -89,14 +89,17 @@ p {
 .fill-heart {
 	position: relative;
 	left: 20px;
-	transition: opacity 0.8s ease-in;
 	opacity: 0;
 	&:hover {
 		cursor: pointer;
 		transition: 0.8s ease-in;
 		opacity: 1;
+		background: -moz-linear-gradient(193.33deg, #9356dc -11.44%, #ff79da 123.93%);
+		color: $color_1;
+		background: -webkit-linear-gradient(193.33deg, #9356dc -11.44%, #ff79da 123.93%);
 		background: linear-gradient(193.33deg, #9356dc -11.44%, #ff79da 123.93%);
-		color: $color_8;
+		-webkit-background-clip: text;
+		-webkit-text-fill-color: transparent;
 	}
 }
 .fa-heart {
@@ -110,7 +113,7 @@ p {
 }
 
 .card {
-	background-color: $background-color_7;
+	background-color: $background-color_3;
 	width: 333px;
 	height: 72px;
 	padding-left: 15px;
@@ -124,6 +127,9 @@ p {
 	margin-bottom: 10px;
 	margin-top: 10px;
 	&:hover {
+		.card-content {
+			width: calc( 100% - 120px );
+		}
 		.price {
 			transform: translateX(-23%);
 		}
@@ -137,9 +143,13 @@ p {
 		}
 	}
 }
+}
 .card-content {
 	width: 100%;
 	transition: width 250ms ease-in-out;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
 }
 .dish {
 	display: flex;
@@ -148,12 +158,11 @@ p {
 	width: auto;
 }
 .dish-info {
-	overflow: hidden;
-	text-overflow: ellipsis;
-	text-decoration: nowrap;
-	white-space: nowrap;
 	font-size: 15px;
 	font-weight: 300;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
 }
 .price {
 	display: flex;
@@ -248,35 +257,22 @@ p {
 }
 @media only screen and (min-width: 992px) {
 	.header {
-		flex-direction: row;
-	}
-	.menu-container {
-		flex-direction: row;
-	}
-	.starters {
-		flex-direction: row;
-	}
-	.main {
-		flex-direction: row;
-	}
-	.dessert {
-		flex-direction: row;
-	}
-}
-@media only screen and (min-width: 1200px) {
-	.header {
 		padding: 16px 64px;
 		flex-direction: row;
+		margin: -10px;
 		padding: 0%;
 	}
 	.menu-container {
 		padding: 16px 64px;
 		flex-direction: row;
+		margin: -10px;
 	}
 	.dish-container {
 		display: flex;
-		flex-direction: row;
+		flex-direction: column;
 		gap: 10px;
+		margin-left: 10%;
+		width: 80%;
 	}
 	.main {
 		>p {
@@ -299,5 +295,56 @@ p {
 		position: absolute;
 		left: 27em;
 		margin-top: 35px;
+	}
+}
+@media only screen and (min-width: 1200px) {
+	.header {
+		padding: 16px 64px;
+		flex-direction: row;
+		padding: 0%;
+	}
+	.dish-container {
+		display: flex;
+		flex-direction: column;
+		gap: 10px;
+		margin-left: 10%;
+		width: 80%;
+	}
+	.menu-container {
+		width: 75%;
+		align-items: center;
+		justify-content: center;
+		margin-left: 9%;
+		margin-right: 12.5%;
+	}
+	.card {
+		width: 634px;
+	}
+	.restaurant-card-container {
+		padding-bottom: 40px;
+	}
+	.main {
+		>p {
+			margin-top: 0px;
+		}
+	}
+	.dessert {
+		>p {
+			margin-top: 0px;
+		}
+	}
+	.starters {
+		>p {
+			margin-top: 0px;
+		}
+	}
+	.Button {
+		justify-content: center;
+		align-items: center;
+		position: absolute;
+		left: 27em;
+		margin-top: 35px;
+		padding: 0px 40;
+		margin-left: 1px;
 	}
 }
