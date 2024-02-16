@@ -99,8 +99,6 @@ margin-bottom: 17px;
  -webkit-background-clip: text;
  -webkit-text-fill-color: transparent;
 }
-
-
 .card {
   background-color: #FFFFFF;
   width: 333px;
@@ -317,7 +315,7 @@ margin-bottom: 17px;
     position: absolute;
     left: 27em;
     margin-top: 35px;
-    padding: 0px 40;
+    padding: 0px 40px;
     margin-left: 1px;
   }
 }
